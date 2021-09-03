@@ -25,7 +25,7 @@ def reddit_connection():
     return reddit
 
 
-def build_dataset(reddit, search_words='VaccineMyths', items_limit=2000):
+def build_dataset(reddit, search_words='conspiracy', items_limit=2000):
     
     # Collect reddit posts
     subreddit = reddit.subreddit(search_words)
